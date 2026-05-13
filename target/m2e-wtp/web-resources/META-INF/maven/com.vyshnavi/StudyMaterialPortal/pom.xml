@@ -7,10 +7,8 @@
 
     <groupId>com.vyshnavi</groupId>
     <artifactId>StudyMaterialPortal</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
-
-    <name>StudyMaterialPortal</name>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -23,6 +21,13 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.3</version>
             <scope>provided</scope>
         </dependency>
 
