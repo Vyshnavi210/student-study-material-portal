@@ -8,6 +8,7 @@
     <groupId>com.portal</groupId>
     <artifactId>StudyMaterialPortal</artifactId>
     <version>1.0</version>
+
     <packaging>war</packaging>
 
     <properties>
@@ -17,6 +18,7 @@
 
     <dependencies>
 
+        <!-- Servlet API -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -24,6 +26,7 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- JSP API -->
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
@@ -31,6 +34,7 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- MySQL -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -51,6 +55,7 @@
                     <source>17</source>
                     <target>17</target>
                 </configuration>
+
             </plugin>
 
         </plugins>
